@@ -1,0 +1,26 @@
+# Android/Gradle build artifacts
+.gradle/
+build/
+**/build/
+
+# Local machine configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Logs and memory dumps
+*.log
+*.hprof
+
+# Signing keys
+*.jks
+*.keystore
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Prayer Watch Face</string>
+    <string name="watch_face_name">Prayer Watch Face</string>
+    <string name="watch_face_description">Prayer times watch face</string>
+</resources>
