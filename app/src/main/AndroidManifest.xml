@@ -46,6 +46,16 @@
                 android:name="com.google.android.wearable.watchface.preview_circular"
                 android:resource="@drawable/watch_face_preview" />
         </service>
+
+        <service
+            android:name=".tile.PrayerTileService"
+            android:exported="true"
+            android:label="@string/tile_name"
+            android:permission="com.google.android.wearable.permission.BIND_TILE_PROVIDER">
+            <intent-filter>
+                <action android:name="androidx.wear.tiles.action.BIND_TILE_PROVIDER" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

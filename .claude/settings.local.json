@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/Users/ercan/Desktop/code/smartwatch status --short)",
+      "Bash(adb devices:*)",
+      "Bash(emulator -list-avds)",
+      "Bash(adb wait-for-device:*)",
+      "Bash(adb shell:*)",
+      "Bash(adb install:*)",
+      "Bash(adb connect:*)",
+      "Bash(ping -n 2 192.168.178.46)",
+      "Bash(adb pair:*)",
+      "Bash(adb -s 192.168.178.46:37185 install -r app/build/outputs/apk/debug/app-debug.apk)",
+      "Bash(adb -s 192.168.178.46:37185 shell am broadcast -a com.google.android.clockwork.home.action.REQUEST_TILE_PROVIDER --es \"com.google.android.clockwork.home.extra.TILE_PROVIDER_COMPONENT_NAME\" \"com.ercan.smartwatch/com.ercan.smartwatch.tile.PrayerTileService\")"
+    ]
+  }
+}

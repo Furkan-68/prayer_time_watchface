@@ -70,6 +70,7 @@ dependencies {
 
     implementation("androidx.wear:wear:1.3.0")
     implementation("androidx.wear.watchface:watchface:1.2.1")
+    implementation("androidx.wear.tiles:tiles:1.4.1")
 
     implementation("androidx.datastore:datastore-preferences:1.1.1")
 
